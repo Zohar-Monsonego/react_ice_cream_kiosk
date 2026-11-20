@@ -1,0 +1,31 @@
+.flavors_card_section {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  gap: 20px;
+  margin-left: 33%;
+  margin-top: 60px;
+}
+
+.show_only_available_section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 250px;
+  margin-left: 610px;
+}
+
+.show_only_p {
+  color: black;
+}
+.show_only_available_button {
+  background: none;
+  border: none;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.up_to_5_scoops_text {
+  color: red;
+  padding-top: 10px;
+}

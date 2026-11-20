@@ -1,0 +1,11 @@
+.order_summary_div {
+  margin-top: 40px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  width: 200px;
+  margin-left: 43%;
+}
+
+.order_empty_p {
+  color: rgb(233, 59, 88);
+}

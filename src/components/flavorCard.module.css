@@ -1,0 +1,52 @@
+.flavor_card {
+  width: 150px;
+  height: 180px;
+  background-color: rgb(246, 238, 221);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+.flavor_info {
+  margin-top: 20px;
+}
+
+.flavor_icon {
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+.flavor_name {
+  color: black;
+  font-weight: bold;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.scoopsSelector {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.buttons_div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  padding-top: 20px;
+  gap: 5px;
+}
+
+.plus_button,
+.minus_button {
+  background: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(238, 206, 138);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.sold_out_tag {
+  color: red;
+  font-size: 10px;
+}
